@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45083928, g: 0.50075287, b: 0.5746634, a: 1}
+  m_IndirectSpecularColor: {r: 0.44863236, g: 0.49868464, b: 0.5756684, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -696,7 +696,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (21)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -825,6 +825,7 @@ GameObject:
   - component: {fileID: 119890786}
   - component: {fileID: 119890788}
   - component: {fileID: 119890787}
+  - component: {fileID: 119890789}
   m_Layer: 0
   m_Name: Ground (20)
   m_TagString: Untagged
@@ -887,6 +888,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 119890785}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &119890789
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 119890785}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &120299052
 Prefab:
   m_ObjectHideFlags: 0
@@ -1000,7 +1013,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (6)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1078,6 +1091,7 @@ GameObject:
   - component: {fileID: 131903258}
   - component: {fileID: 131903257}
   - component: {fileID: 131903256}
+  - component: {fileID: 131903255}
   m_Layer: 0
   m_Name: Ground (16)
   m_TagString: Untagged
@@ -1085,6 +1099,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &131903255
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131903254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &131903256
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1372,13 +1398,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 170076733}
-  m_LocalRotation: {x: 0.2912065, y: -0.15455678, z: 0.07824179, w: 0.94084495}
-  m_LocalPosition: {x: -65.85, y: 22.7, z: -61.2}
+  m_LocalRotation: {x: -0.050863482, y: -0.92560744, z: 0.37036592, w: -0.059101135}
+  m_LocalPosition: {x: -61.8, y: 61.6, z: -29.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 34.9, y: -17.4, z: 4}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 43.76, y: -185.7, z: 4}
 --- !u!1001 &174899444
 Prefab:
   m_ObjectHideFlags: 0
@@ -1441,7 +1467,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (12)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1571,7 +1597,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (10)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1650,7 +1676,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (24)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1677,6 +1703,7 @@ GameObject:
   - component: {fileID: 225015749}
   - component: {fileID: 225015748}
   - component: {fileID: 225015747}
+  - component: {fileID: 225015746}
   m_Layer: 0
   m_Name: Ground (12)
   m_TagString: Untagged
@@ -1684,6 +1711,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &225015746
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 225015745}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &225015747
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1953,6 +1992,7 @@ GameObject:
   - component: {fileID: 259880702}
   - component: {fileID: 259880701}
   - component: {fileID: 259880700}
+  - component: {fileID: 259880699}
   m_Layer: 0
   m_Name: Ground (4)
   m_TagString: Untagged
@@ -1960,6 +2000,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &259880699
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259880698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &259880700
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2178,6 +2230,7 @@ GameObject:
   - component: {fileID: 282840814}
   - component: {fileID: 282840813}
   - component: {fileID: 282840811}
+  - component: {fileID: 282840812}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2192,6 +2245,22 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
   m_Enabled: 1
+--- !u!114 &282840812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 282840810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d13f248f2ab6fae49bdb2ac3e235b3a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panSpeed: 30
+  panBorderThickness: 30
+  scrollSpeed: 5
+  minY: 10
+  maxY: 80
 --- !u!20 &282840813
 Camera:
   m_ObjectHideFlags: 0
@@ -2234,13 +2303,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
-  m_LocalRotation: {x: 0.34443015, y: -0.6175499, z: 0.34443015, w: 0.6175499}
-  m_LocalPosition: {x: 25.6, y: 67.6, z: -22.8}
+  m_LocalRotation: {x: 0.4870978, y: 0, z: 0, w: 0.87334746}
+  m_LocalPosition: {x: -21.1, y: 75.4, z: -75.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 121.7, y: 90, z: 180}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 121.7, y: 180, z: 180}
 --- !u!1001 &316478098
 Prefab:
   m_ObjectHideFlags: 0
@@ -2404,6 +2473,7 @@ GameObject:
   - component: {fileID: 359432727}
   - component: {fileID: 359432726}
   - component: {fileID: 359432725}
+  - component: {fileID: 359432724}
   m_Layer: 0
   m_Name: Ground (14)
   m_TagString: Untagged
@@ -2411,6 +2481,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &359432724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 359432723}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &359432725
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2884,6 +2966,7 @@ GameObject:
   - component: {fileID: 416675970}
   - component: {fileID: 416675969}
   - component: {fileID: 416675968}
+  - component: {fileID: 416675967}
   m_Layer: 0
   m_Name: Ground (18)
   m_TagString: Untagged
@@ -2891,6 +2974,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &416675967
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 416675966}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &416675968
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3109,6 +3204,7 @@ GameObject:
   - component: {fileID: 444990790}
   - component: {fileID: 444990789}
   - component: {fileID: 444990788}
+  - component: {fileID: 444990787}
   m_Layer: 0
   m_Name: Ground (25)
   m_TagString: Untagged
@@ -3116,6 +3212,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &444990787
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 444990786}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &444990788
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3605,7 +3713,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (8)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3734,6 +3842,7 @@ GameObject:
   - component: {fileID: 490158981}
   - component: {fileID: 490158980}
   - component: {fileID: 490158979}
+  - component: {fileID: 490158978}
   m_Layer: 0
   m_Name: Ground (10)
   m_TagString: Untagged
@@ -3741,6 +3850,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &490158978
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 490158977}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &490158979
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3960,7 +4081,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (18)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3987,6 +4108,7 @@ GameObject:
   - component: {fileID: 583895104}
   - component: {fileID: 583895103}
   - component: {fileID: 583895102}
+  - component: {fileID: 583895101}
   m_Layer: 0
   m_Name: Ground (15)
   m_TagString: Untagged
@@ -3994,6 +4116,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &583895101
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 583895100}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &583895102
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4620,6 +4754,7 @@ GameObject:
   - component: {fileID: 699139038}
   - component: {fileID: 699139037}
   - component: {fileID: 699139036}
+  - component: {fileID: 699139035}
   m_Layer: 0
   m_Name: Ground (23)
   m_TagString: Untagged
@@ -4627,6 +4762,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &699139035
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 699139034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &699139036
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4692,6 +4839,7 @@ GameObject:
   - component: {fileID: 718655373}
   - component: {fileID: 718655372}
   - component: {fileID: 718655371}
+  - component: {fileID: 718655370}
   m_Layer: 0
   m_Name: Ground (1)
   m_TagString: Untagged
@@ -4699,6 +4847,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &718655370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 718655369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &718655371
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4917,6 +5077,7 @@ GameObject:
   - component: {fileID: 733603415}
   - component: {fileID: 733603414}
   - component: {fileID: 733603413}
+  - component: {fileID: 733603412}
   m_Layer: 0
   m_Name: Ground (8)
   m_TagString: Untagged
@@ -4924,6 +5085,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &733603412
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 733603411}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &733603413
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5032,7 +5205,7 @@ Transform:
   - {fileID: 444990790}
   - {fileID: 119890786}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &767307478
 Prefab:
@@ -5249,7 +5422,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (9)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6217,6 +6390,7 @@ GameObject:
   - component: {fileID: 914935023}
   - component: {fileID: 914935022}
   - component: {fileID: 914935021}
+  - component: {fileID: 914935020}
   m_Layer: 0
   m_Name: Ground (13)
   m_TagString: Untagged
@@ -6224,6 +6398,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &914935020
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 914935019}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &914935021
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6341,7 +6527,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (13)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6594,7 +6780,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -7132,7 +7318,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (2)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -7159,6 +7345,7 @@ GameObject:
   - component: {fileID: 1094419040}
   - component: {fileID: 1094419039}
   - component: {fileID: 1094419038}
+  - component: {fileID: 1094419037}
   m_Layer: 0
   m_Name: Ground (17)
   m_TagString: Untagged
@@ -7166,6 +7353,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1094419037
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1094419036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1094419038
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7537,6 +7736,7 @@ GameObject:
   - component: {fileID: 1150236659}
   - component: {fileID: 1150236658}
   - component: {fileID: 1150236657}
+  - component: {fileID: 1150236656}
   m_Layer: 0
   m_Name: Ground (6)
   m_TagString: Untagged
@@ -7544,6 +7744,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1150236656
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1150236655}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1150236657
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7661,7 +7873,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (16)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -7689,7 +7901,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (25)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -7768,7 +7980,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (14)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -8000,7 +8212,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (22)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -8333,6 +8545,7 @@ GameObject:
   - component: {fileID: 1325115027}
   - component: {fileID: 1325115026}
   - component: {fileID: 1325115025}
+  - component: {fileID: 1325115024}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -8340,6 +8553,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1325115024
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1325115023}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1325115025
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8457,7 +8682,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (23)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -8586,6 +8811,7 @@ GameObject:
   - component: {fileID: 1370391366}
   - component: {fileID: 1370391365}
   - component: {fileID: 1370391364}
+  - component: {fileID: 1370391363}
   m_Layer: 0
   m_Name: Ground (19)
   m_TagString: Untagged
@@ -8593,6 +8819,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1370391363
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1370391362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1370391364
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8905,6 +9143,7 @@ GameObject:
   - component: {fileID: 1431114919}
   - component: {fileID: 1431114918}
   - component: {fileID: 1431114917}
+  - component: {fileID: 1431114916}
   m_Layer: 0
   m_Name: Ground (2)
   m_TagString: Untagged
@@ -8912,6 +9151,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1431114916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1431114915}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1431114917
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9233,7 +9484,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (4)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -9413,6 +9664,7 @@ GameObject:
   - component: {fileID: 1514176250}
   - component: {fileID: 1514176249}
   - component: {fileID: 1514176248}
+  - component: {fileID: 1514176247}
   m_Layer: 0
   m_Name: Ground (22)
   m_TagString: Untagged
@@ -9420,6 +9672,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1514176247
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1514176246}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000004, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1514176248
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9584,7 +9848,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (3)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -9867,7 +10131,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (19)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -10047,6 +10311,7 @@ GameObject:
   - component: {fileID: 1614865241}
   - component: {fileID: 1614865240}
   - component: {fileID: 1614865239}
+  - component: {fileID: 1614865238}
   m_Layer: 0
   m_Name: Ground (7)
   m_TagString: Untagged
@@ -10054,6 +10319,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1614865238
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1614865237}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1614865239
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10273,7 +10550,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (15)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -10351,6 +10628,7 @@ GameObject:
   - component: {fileID: 1665683519}
   - component: {fileID: 1665683518}
   - component: {fileID: 1665683517}
+  - component: {fileID: 1665683516}
   m_Layer: 0
   m_Name: Ground (24)
   m_TagString: Untagged
@@ -10358,6 +10636,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1665683516
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1665683515}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1665683517
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10742,7 +11032,7 @@ Transform:
   - {fileID: 1138423747}
   - {fileID: 543854467}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1689446046
 GameObject:
@@ -10755,7 +11045,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (17)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -11037,6 +11327,7 @@ GameObject:
   - component: {fileID: 1749050895}
   - component: {fileID: 1749050894}
   - component: {fileID: 1749050893}
+  - component: {fileID: 1749050892}
   m_Layer: 0
   m_Name: Ground (3)
   m_TagString: Untagged
@@ -11044,6 +11335,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1749050892
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1749050891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1749050893
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11551,6 +11854,7 @@ GameObject:
   - component: {fileID: 1796382393}
   - component: {fileID: 1796382392}
   - component: {fileID: 1796382391}
+  - component: {fileID: 1796382390}
   m_Layer: 0
   m_Name: Ground (5)
   m_TagString: Untagged
@@ -11558,6 +11862,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1796382390
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1796382389}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1796382391
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11980,6 +12296,7 @@ GameObject:
   - component: {fileID: 1839747932}
   - component: {fileID: 1839747931}
   - component: {fileID: 1839747930}
+  - component: {fileID: 1839747929}
   m_Layer: 0
   m_Name: Ground (9)
   m_TagString: Untagged
@@ -11987,6 +12304,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1839747929
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1839747928}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000004, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1839747930
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12053,7 +12382,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (7)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -12182,6 +12511,7 @@ GameObject:
   - component: {fileID: 1860479687}
   - component: {fileID: 1860479686}
   - component: {fileID: 1860479685}
+  - component: {fileID: 1860479684}
   m_Layer: 0
   m_Name: Ground (11)
   m_TagString: Untagged
@@ -12189,6 +12519,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1860479684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1860479683}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000004, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1860479685
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12356,6 +12698,7 @@ GameObject:
   - component: {fileID: 1892076781}
   - component: {fileID: 1892076780}
   - component: {fileID: 1892076779}
+  - component: {fileID: 1892076778}
   m_Layer: 0
   m_Name: Ground (21)
   m_TagString: Untagged
@@ -12363,6 +12706,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1892076778
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1892076777}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1892076779
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12480,7 +12835,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (5)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -12610,7 +12965,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (11)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -13350,6 +13705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2022588157}
   - component: {fileID: 2022588156}
+  - component: {fileID: 2022588158}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: Untagged
@@ -13386,6 +13742,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2022588158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022588155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2949dbb9c71c4d04e8bde358de49ab10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  standardTurretPrefab: {fileID: 1320994923309354, guid: 4de68f9ebc8e1a644b0d383c491015b8,
+    type: 2}
 --- !u!1001 &2022955180
 Prefab:
   m_ObjectHideFlags: 0
@@ -13499,7 +13868,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -13527,7 +13896,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint (20)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
