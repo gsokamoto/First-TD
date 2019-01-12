@@ -19,6 +19,7 @@ public class Turret : MonoBehaviour {
     public float turnSpeed = 10f;
 
     public GameObject bulletPrefab;
+    public GameObject fireAnimation;
     public Transform firePoint;
 
 
@@ -76,6 +77,9 @@ public class Turret : MonoBehaviour {
 
     void Shoot()
     {
+        GameObject fireAnimationGO = (GameObject)Instantiate(fireAnimation, firePoint.position, firePoint.rotation);
+        Destroy(fireAnimationGO, 1f);
+        
         GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Bullet bullet = bulletGO.GetComponent<Bullet>();
 

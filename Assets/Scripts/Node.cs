@@ -4,6 +4,7 @@ using UnityEngine.EventSystems;
 public class Node : MonoBehaviour
 {
     public Color hoverColor;
+    public Color notEnoughMoneyColor;
     public Vector3 offset;
 
     [Header("Optional")]
@@ -55,8 +56,14 @@ public class Node : MonoBehaviour
             return;
         }
 
-        //GetComponent<Renderer>().material.color = hoverColor; could do it like this instead, but less optimized
-        rend.material.color = hoverColor;
+        if(buildManager.HasMoney)
+        {
+            rend.material.color = hoverColor;
+        }
+        else
+        {
+            rend.material.color = notEnoughMoneyColor;
+        }
 
     }
 
